@@ -51,4 +51,5 @@ The output here displays the permission listing for several files and directorie
 
 Here you can see that only *researcher2* has *execute* permissions. It was previously determined that the group had *execute* permissions, so I used the **chmod** command to remove them. The *researcher2* user already had *execute* permissions, so they did not need to be added.
 
-
+## Summary
+Multiple permissions were changed to match the level of authorization the organization requested for files and directories in the *projects* directory. Using **ls -la** as a starting point to check the permissions for the directory and informed my decisions in the following steps. Then **chmod** command was used multiple times to change the permissions on files and directories.
