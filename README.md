@@ -12,6 +12,5 @@ The 10-character string can be deconstructed to determine who is authorized to a
 
 - 1st character: This character is either a d or hyphen (-) and indicates the file type. If it’s a d, it’s a directory. If it’s a hyphen (-), it’s a regular
 le.
-2nd-4th characters: These characters indicate the read (r), write (w), and execute (x)
-permissions for the user. When one of these characters is a hyphen (-) instead, it
+- 2nd-4th characters: These characters indicate the read (r), write (w), and execute (x) permissions for the user. When one of these characters is a hyphen (-) instead, it
 indicates that this permission is not granted to the user.
