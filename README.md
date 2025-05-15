@@ -23,6 +23,7 @@ file.
 For example, the file permissions for **project_t.txt** are **-rw-rw-r--**. Since the first character is a **hyphen (-)**, this indicates that **project_t.txt** is a file, not a directory. The second, fifth, and eighth characters are all **r**, which indicates that user, group, and other all have read permissions. The third and sixth characters are **w**, which indicates that only the user and group have write permissions. No one has execute permissions for **project_t.txt**.
 
 ## Change File Permissions
+The organization determined that others shouldn't have write access to any of their files. To comply with this, I referred to the file permissions that I previously returned. I've determined **project_k.txt** must have the write access removed for others. The following code demonstrates these Linux commands:
 <img width="612" alt="Screenshot 2025-05-15 at 1 14 16 PM" src="https://github.com/user-attachments/assets/c975c914-b593-499b-b5ce-f17b222e8440" />
 
 The first two lines of the screenshot display the commands I've entered, and the other lines display the output of the second command. The **chmod** command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from other for the **project_k.txt** file. After this, I used **ls -la** to review the updates I made.
