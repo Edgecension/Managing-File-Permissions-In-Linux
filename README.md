@@ -38,4 +38,17 @@ The following code demonstrates these Linux commands to change the permissions:
 
 The first two lines of the screenshot display the commands entered, and the other lines display the output of the second command. It is apparent that *.project_x.txt* is a hidden file since it begins with a **period (.)**. In this example, *write* permissions was removed from the *user* and *group*, and added *read* permissions to the *group*. I removed *write* permissions from the *user* with **u-w**. Then, I removed *write* permissions from the *group* with **g-w**, and added *read* permissions to the *group* with **g+r**.
 
+## Change Directory Permissions
+The organization only wants the *researcher2 user* to have access to the drafts directory and its contents. This means that no one other than *researcher2* should have *execute* permissions. The following code demonstrates how Linux commands was used to change the permissions:
+
+<img width="612" alt="Screenshot 2025-05-15 at 1 47 20 PM" src="https://github.com/user-attachments/assets/a5c96a32-52f4-45af-9090-8a559d9c1f88" />
+
+The output here displays the permission listing for several files and directories.
+- Line 1 indicates the current directory (projects).
+- Line 2 indicates the parent directory (home).
+- Line 3 indicates a regular file titled *.project_x.txt*.
+- Line 4 is the directory (drafts) with restricted permissions.
+
+Here you can see that only *researcher2* has *execute* permissions. It was previously determined that the group had *execute* permissions, so I used the **chmod** command to remove them. The *researcher2* user already had *execute* permissions, so they did not need to be added.
+
 
