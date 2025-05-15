@@ -5,7 +5,7 @@ An organization needs to update file permissions for certain files and directori
 authorization that should be given. Checking and updating these permissions will help ensure a secure system. Here are the following steps in completing this task:
 
 ## File Check and Directory Details
-The following code demonstrates how Linux commands are used to determine the existing permissions for a specific directory in the file system.
+The following code demonstrates how Linux commands are used to determine the existing permissions for a specific directory.
 
 <img width="612" alt="Screenshot 2025-05-15 at 12 58 13 PM" src="https://github.com/user-attachments/assets/dee5c614-239c-49f7-b240-b1ae0ccab411" />
 
